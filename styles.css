@@ -2,11 +2,16 @@
 body {
   margin: 0;
   font-family: 'Rajdhani', Arial, sans-serif;
-  background: #1e1f22;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 .valorant-navbar {
   background: linear-gradient(90deg, #ff4655 0%, #1e1f22 100%);
   height: 80px;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,6 +86,16 @@ body {
 .menu-toggle:active {
   background: rgba(255,70,85,0.35);
 }
+.character-img {
+  max-width: 400px;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(30,31,34,0.11), 0 2px 6px rgba(255,70,85,0.13);
+  margin: 40px auto 0 auto;
+  display: block;
+  background: none;
+}
 @media (max-width: 900px) {
   .valorant-navbar {
     padding: 0 30px;
@@ -94,6 +109,9 @@ body {
   }
   .nav-links {
     gap: 24px;
+  }
+  .character-img {
+    max-width: 280px;
   }
 }
 @media (max-width: 700px) {
@@ -118,6 +136,9 @@ body {
   .menu-toggle {
     display: block;
     color: #fff;
+  }
+  .character-img {
+    max-width: 180px;
   }
 }
 @keyframes slideDown {
