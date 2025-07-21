@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   background: #fff;
   font-family: 'Rajdhani', Arial, sans-serif;
 }
-
-/* Navbar Styles */
 .valorant-navbar {
   background: #1a1a1a;
   color: #fff;
@@ -61,7 +61,6 @@ body {
   display: none;
 }
 
-/* Character and Background Text */
 .character-wrapper {
   position: relative;
   width: 100vw;
@@ -69,22 +68,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px; /* Push below navbar */
+  margin-top: 70px;
   overflow: hidden;
 }
 
 .character-bg-text {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-family: 'Rajdhani', Arial, sans-serif;
-  font-size: 10vw;
+  font-family: 'Anton SC', Arial, sans-serif;
+  font-size: 20vw;
   font-weight: 900;
-  color: #181C20;
-  opacity: 0.12;
-  letter-spacing: 0.13em;
+  color: #000000;
+  letter-spacing: 0.50em;
   pointer-events: none;
   user-select: none;
   white-space: nowrap;
@@ -98,16 +96,17 @@ body {
 .center-character {
   position: relative;
   z-index: 2;
-  max-width: 370px;
-  max-height: 78vh;
+  max-width: 600px;
+  max-height: 130vh;
   object-fit: contain;
   display: block;
   pointer-events: none;
   user-select: none;
   background: none;
+  margin-top: 3cm;
+  margin-left: 3cm;
 }
 
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .character-bg-text {
     font-size: 14vw;
