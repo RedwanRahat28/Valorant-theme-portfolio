@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #000000;
   font-family: 'Rajdhani', Arial, sans-serif;
 }
 .valorant-navbar {
@@ -74,23 +74,20 @@ body {
 
 .character-bg-text {
   position: absolute;
-  top: 50%;
-  left: 55%;
+  top: 33%;
+  left: 67%;
   transform: translate(-50%, -50%);
   z-index: 1;
   font-family: 'Anton SC', Arial, sans-serif;
-  font-size: 20vw;
+  font-size: 8vw;
   font-weight: 900;
-  color: #000000;
+  color: #ffffff;
   letter-spacing: 0.50em;
   pointer-events: none;
   user-select: none;
   white-space: nowrap;
   text-transform: uppercase;
   line-height: 1;
-  text-shadow:
-    0 2px 10px rgba(0,0,0,0.12),
-    0 0px 0 #000;
 }
 
 .center-character {
@@ -104,7 +101,7 @@ body {
   user-select: none;
   background: none;
   margin-top: 3cm;
-  margin-left: 3cm;
+  margin-left: -35cm;
 }
 
 @media (max-width: 900px) {
