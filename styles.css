@@ -59,6 +59,12 @@ body {
     box-shadow 0.3s;
   box-shadow: 0 0 0 rgba(255,70,85,0);
 }
+.center-character {
+  max-width: 350px;
+  max-height: 70vh;
+  object-fit: contain;
+  display: block;
+}
 .nav-links li a:hover {
   color: #fff;
   background: #ff4655;
